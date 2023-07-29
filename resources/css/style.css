@@ -1,5 +1,5 @@
 body {
- margin: 5%;
+ margin: 2.5%;
 }
 
 h2 {
@@ -9,30 +9,30 @@ h2 {
 .flex {
  display: flex;
  justify-content: center;
- flex-wrap: wrap;
+ /*flex-wrap: wrap;*/
 }
 
 .flexColumn {
  display: flex;
  flex-direction: column;
- margin: 0 2rem;
+ margin: 1rem 2rem;    /*0 2rem;*/
  width: 30%;
 }
 
 #draw {
- border: solid 2px #000;
+/* border: solid 2px #000; */
  width: 8rem;
  height: 2.5rem;
  text-align: center;
  cursor: pointer;
- position: relative;
+ position: relative; 
+ margin: auto;
  background-color: #04AA6D;
  border: none;
  font-size: 28px;
  color: #FFFFFF;
  padding: 20px;
- width: 200px;
- text-align: center;
+ /*width: 200px; */
  -webkit-transition-duration: 0.4s; /* Safari */
  transition-duration: 0.4s;
  text-decoration: none;
@@ -94,3 +94,74 @@ width: auto;
 width: 90%;
  }
 }
+
+img {
+  width: 100%
+}
+
+.winner {
+
+  flex-grow: 1;
+  
+  }
+  button {
+
+    background-color: #4CAF50;             
+    
+    padding: 1rem;
+    
+    margin: 1rem;
+    
+    font-size: 1.3rem;
+    
+    color: #fff;
+    
+    }
+    span {
+
+      margin-left: 1rem;
+      
+      }
+      
+      
+      .button:hover {
+      
+      color: red;
+      
+      cursor: pointer;
+      
+      }
+      
+      
+      input {
+      
+      margin: .5rem;
+      font-size: 2rem;
+      padding: .5px;
+      width: 8rem;
+      
+      }
+
+      #submit {
+        padding: .5rem;
+        margin: .5rem;
+        width: 8rem;
+      }
+
+      .op {
+        display: none;
+      }
+      
+      
+      .hidden {
+      
+      display: none;
+      
+      }
+      
+      
+      p {
+      
+      font-size: 1.2rem;
+      
+      }
